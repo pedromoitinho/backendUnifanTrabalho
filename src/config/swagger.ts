@@ -19,12 +19,12 @@ const options: swaggerJsdoc.Options = {
     },
     servers: [
       {
-        url: "http://localhost:3000",
-        description: "Servidor de Desenvolvimento",
+        url: "https://backendunifantrabalho.onrender.com",
+        description: "Servidor de Produção",
       },
       {
-        url: "https://api.conectacausa.org",
-        description: "Servidor de Produção",
+        url: "http://localhost:3000",
+        description: "Servidor de Desenvolvimento",
       },
     ],
     components: {
